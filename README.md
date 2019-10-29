@@ -3,7 +3,7 @@
 ## <div align="center">Build a your own training definition for the signature fraud experiment</div>
 
 
-As an addendum to the lab "[Build a model that detects signature fraud](https://github.com/IBM-DIS/workshop)" this instruction walks through how to add your own training source code to the experiment.
+As an addendum to the lab "[Build a model that detects signature fraud](https://github.com/IBM-DIS/workshop)" this instruction walks you through how to add your own training source code to the experiment.
 
 If the generated training definition fails to load, use the "New training definition" and upload the zip file as the training source code.
 
