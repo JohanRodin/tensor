@@ -7,7 +7,7 @@ If the generated training definition fails to load, use the "New training defini
 
 Step 1. Download the .zip file. Unzip it to a directory on your computer. Open .yml file for editing.
 
-Step 2. Locate the section called training data reference name in the .yml file. Add your COS credentials.
+Step 2. Locate the section called training data reference name in the .yml file. Add your COS credentials. You need to change the access_key_id, secret_access_key and bucket name.
 
 ![](images/02.png)
 
