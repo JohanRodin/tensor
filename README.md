@@ -17,6 +17,7 @@ Add your COS credentials. You need to change the access_key_id, secret_access_ke
 
 ### Step 3. Save the file and add it back to the zip file. 
 You can use the command zip my-training.zip my-support-definitions.yml
+<pre style="color: silver; background: black;">$ zip my-training.zip my-support-definitions.yml</pre>
 
 ### Step 4. In the add training definition dialog, add your zip file as the source code.
 
