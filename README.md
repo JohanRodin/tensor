@@ -22,3 +22,5 @@ You can use the following zip command:
 ### Step 4. In the add training definition dialog, add your zip file as the source code.
 
 ![](images/01.png)
+
+### Ref. [Create a Training definition](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml_dlaas_working_with_training_definitions.html)
