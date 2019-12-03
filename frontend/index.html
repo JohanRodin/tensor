@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Signature Fraud Detection Page</title>
+    <link rel="icon" href="./favicon.ico">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body id="body">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/brain/0.6.3/brain.min.js"></script>
+    <script src="https://cdn.rawgit.com/arguiot/f604513e7a85829e945aadbf294cc003/raw/e2f405e778465abcb2ea3edfa22bf40a3cbc554a/model.js"></script>
+    <script src="eval.js"></script>
+    <script src="script.js"></script>
+
+    <h1>Recognizing signature fraud on your dataset.</h1>
+    <p>
+    Draw a signature in the box below and the neural network will determine the correctness!
+    </p>
+  
+    
+    <br/>
+    <div id="container">
+
+        <h2 id="firsttext">Draw Here</h2>
+        <h2 id="secondtext">Result</h2>
+    
+    <canvas id="sketchpad" width="320" height="320">Sorry, your browser is not supported.</canvas>
+    <div id="result"></div>
+    <div style="clear: right"></div>
+    <button onclick="clear_squares()">Clear</button>
+    <p id="ref_section">
+    With inspiration from <a href="https://repl.it/talk/share/Recognizing-Handwritten-Digits-From-the-MNIST-dataset/9367">Recognizing Handwritten Digits From the MNIST dataset!</a>
+    </div>
+    <br/>
+
+    
+  </body>
+</html>
