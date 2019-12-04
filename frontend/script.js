@@ -310,7 +310,7 @@ window.addEventListener('load', () => {
             for (var y = 0; y < 32; y++) {
                 var tmp_arr = [];
                 for (var x = 0; x < 32; x++) {
-                    tmp_arr.push(new Array(1).fill(Math.round(nnInput2[big_counter]*256))); //*65536
+                    tmp_arr.push(new Array(1).fill(65535-Math.round(nnInput2[big_counter]*65535))); //*65536
                     output_str += dec2hex(65535-Math.round(nnInput2[big_counter]*65535)) + " ";
                     //myArray[y][x]=nnInput2[big_counter];
                     big_counter++;
