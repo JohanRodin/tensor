@@ -3,9 +3,9 @@
 //const wml_credentials = new Map();
 
 const my_params = {
-	"api_key": "-Lhjlcl1sHSHdD7Vxk6eqtXXQgeXRE03_rq7lkpSLNgx",
-	"ml_instance_id": "93bdb66b-3de6-4534-81ef-717169aa8d3f",
-	"deployment": "0277745e-42ec-49b2-974a-deb52b859958"
+	"api_key": "****put-your-apikey-here****",  // can be found in the credentials section of your ML instance
+	"ml_instance_id": "****put-your-instanceid-here****", // can be found in the credentials section of your ML instance
+	"deployment": "****put-your-deploymentid-here****" // can be found in the overview section of your deployed web service
 
 };
 
